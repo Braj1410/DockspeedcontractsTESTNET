@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.9+commit.e5eed63a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_tokenId",
+						"type": "uint256"
+					}
+				],
+				"name": "CarData",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "_carData",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Interfaces/IFactory.sol": "IFactory"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Interfaces/IFactory.sol": {
+			"keccak256": "0x0a3bc9a6be5c0281887b3610231e43e69020829168174a7b58fa2a1906f79318",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3dc850636961ea67baeb4e075555e30948d5dcd4737c3ac696421f23429fd17a",
+				"dweb:/ipfs/QmRHYcp2S15uHQhEMaSqWFAPjA2LCpJ8WFBUdf37Nb4b5P"
+			]
+		}
+	},
+	"version": 1
+}
